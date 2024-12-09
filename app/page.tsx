@@ -17,7 +17,7 @@ export default function Page() {
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Finance app and dashboard
             </a>
-            , brought to you by Acme corp
+            , brought to you by Acme corp, please use admin@example.com and 123456 to login
             
           </p>
           <Link
