@@ -18,6 +18,7 @@ async function getUser(email: string): Promise<User | undefined> {
  
 export const { auth, signIn, signOut } = NextAuth({
   ...authConfig,
+  secret: process.env.AUTH_SECRET,
   providers: [
     Credentials({
       async authorize(credentials) {
@@ -33,7 +34,7 @@ export const { auth, signIn, signOut } = NextAuth({
 
           if (passwordsMatch) return user;
         }
-        console.log('Invalid credentials');
+        console.log('AUTH_SECRET:', process.env.AUTH_SECRET);
         return null;
  
       },
