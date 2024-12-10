@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Acme Dashboard',
   description: 'Next.js Dashboard by Juan Diego.',
-  metadataBase: new URL(''),
+  metadataBase: new URL('https://dashboard-pearl-mu.vercel.app/'),
 };
  
 
