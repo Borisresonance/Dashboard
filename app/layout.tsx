@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Acme Dashboard',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
+  description: 'Next.js Course Dashboard by Juan Diego.',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
  
